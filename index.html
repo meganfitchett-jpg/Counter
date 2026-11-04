@@ -53,7 +53,7 @@
     let n = 0;
     const el = document.getElementById('count');
     document.getElementById('plus').onclick = () => { n++; el.textContent = n; };
-    document.getElementById('minus').onclick = () => { n= Math.max(0, n - 1); el.textContent = n; };
+    document.getElementById('minus').onclick = () => { n=--; el.textContent = n; };
   </script>
 </body>
 </html>
